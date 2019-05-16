@@ -1,9 +1,9 @@
-# NICER in Julia 1.1
-Contains the Julia code of the "NICER" integrated assessment model for Julia 1.1
+# NICERU in Julia 1.1
+Contains the Julia code of the "NICER" integrated assessment model for Julia 1.1 with the normative uncertainty 
 
-The original model from fdenning (https://github.com/fdennig/NICER) was running with Julia 0.6.
-
-This update has been achieved jointly with Brian Jabarian (PSE-Princeton), to allow the model run in Julia 1.1.
+This update with normative uncertainty builds on two previous works:
+1) The original model from fdenning (https://github.com/fdennig/NICER) was running with Julia 0.6.
+2) the update of NICER in Julia 0.6 to NICER in Julia 1.1 done jointly with Boris Maillard.
 
 Content:
 - The "Optimization.jl" file contains the template for the main types of optimization. This is the main program.
@@ -11,4 +11,6 @@ Content:
 - The "/Data" subfolder contains two data files required to run the model, i.e. certainPARAMETERS.jld and dparam_i.jld.
 - The "/specificRoutines" and "/preOct2016" subfolders have not been considered nor yet updated for Julia 1.1.0.
 
-See following paper to get more information on model: https://www.pnas.org/content/112/52/15827
+See following paper to get more information on model: to be uploaded.
+
+
