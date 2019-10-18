@@ -1,4 +1,4 @@
-# NICERU in Julia 1.1
+# NICER in Julia 1.1
 Contains the Julia code of the "NICER" integrated assessment model for Julia 1.1 with the normative uncertainty 
 
 This update with normative uncertainty builds on two previous works:
